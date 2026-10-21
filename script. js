@@ -1,0 +1,30 @@
+const studentform = document.getElementById("studentForm");
+
+const studentName = document.getElementById("studentName");
+const schoolName = document.getElementById("schoolName");
+const course = document.getElementById("course");
+
+const formMessage=document.getElementById("formMessage");
+
+const cardResult = document.querySelector(".card-result");
+const cardStudentName = document.getElementById("cardStudentName");
+const cardSchoolName = document.getElementById("cardSchoolName");
+const cardCourse = document.getElementById("cardCourse");
+
+studentform.addEventListener("submit", function (event) {event.preventDefault();
+
+    const name = studentName.value.trim();
+    const school = schoolName.value.trim();
+    const studentCourse = course.value.trim();
+
+    if (name== "" || school === "" || studentCourse ==="") {
+        formMessage. textContent= "please fill in all fields.";
+        cardResult.hidden= true; return;
+    }
+    cardStudentName.textContent=name;
+    cardSchoolName.textContent=school;
+    cardCourse.textContent="course:" + studentCourse;
+
+    formMessage.textContent="";
+    cardResult.hidden=false;
+});
