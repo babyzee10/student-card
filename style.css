@@ -83,7 +83,11 @@ border-radius: 16px;
 background: linear-gradient(135deg, #1d4ed8, #4338ca);
 color: white;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 100%
+>>>>>>> b9638e51eb8652f2dea20f7eb8bf17682ec6ff36
     box-sizing: border-box;
     min-height: 220px;
 }
