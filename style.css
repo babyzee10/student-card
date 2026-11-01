@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -69,6 +70,10 @@ button:hover {
     margin: 30px auto 0;
 }
 
+.card-result[hidden] {
+    display: none;
+}
+
 .card-result h2 {
     text-align: center;
     margin-bottom: 16px;
@@ -76,20 +81,13 @@ button:hover {
 }
 
 .student-card {
-position: relative;
-overflow: hidden;
-padding: 28px;
-border-radius: 16px;
-background: linear-gradient(135deg, #1d4ed8, #4338ca);
-color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 28px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #1d4ed8, #4338ca);
+    color: white;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-<<<<<<< HEAD
-    width: 100%;
-=======
-    width: 100%
->>>>>>> b9638e51eb8652f2dea20f7eb8bf17682ec6ff36
-    box-sizing: border-box;
-    min-height: 220px;
 }
 
 .student-card h3 {
@@ -103,18 +101,18 @@ color: white;
 }
 
 .card-label {
-display: inline-block;
-margin-top: 12px;
-padding: 6px 12px;
-border: 1px solid rgba(255, 255, 255, 0.6);
-border-radius: 20px;
-font-size: 12px;
-letter-spacing: 2px;
+    display: inline-block;
+    margin-top: 12px;
+    padding: 6px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
 }
 
 .form-message {
-color: #dc2626;
-margin-top: 12px;
-text-align: center;
-font-size: 14px;
+    color: #dc2626;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
 }

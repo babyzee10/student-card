@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,30 +13,47 @@
     <p>Create your own digital student card!</p>
 
     <form id="studentForm">
-    <label for="studentName">Full Name</label>
-    <input type="text" id="studentName" placeholder="Enter your full name">
 
-    <label for="schoolName">School Name</label>
-    <input type="text" id="schoolName" placeholder="Enter your school">
+        <label for="studentName">Full Name</label>
+        <input type="text" id="studentName"
+            placeholder="Enter your full name" required>
 
-    <label for="course">Course of Study</label>
-    <input type="text" id="course" placeholder="Enter your course">
+        <label for="schoolName">School Name</label>
+        <input type="text" id="schoolName"
+            placeholder="Enter your school" required>
 
-    <button type="submit">Generate My Card</button>
-    <p id="formMessage" class="form-message" aria-live="polite"></p>
+        <label for="course">Course of Study</label>
+        <input type="text" id="course"
+            placeholder="Enter your course" required>
+
+        <button type="submit">Generate My Card</button>
+
+        <p id="formMessage" class="form-message"
+            aria-live="polite"></p>
+
     </form>
 
     <div id="cardResult" class="card-result" hidden>
-    <h2>Your Student Card</h2>
 
-    <div class="student-card">
-    <h3 id="cardStudentName">Student Name</h3>
-    <p id="cardSchoolName">School Name</p>
-    <p id="cardCourse">Course of Study</p>
-    <p id="cardNumber">Card No: SC-2026</p>
-    <span class="card-label">STUDENT</span>
-    </d>
-</div>
-<script src="script. js"></script>
+        <h2>Your Student Card</h2>
+
+        <div class="student-card">
+
+            <h3 id="cardStudentName">Student Name</h3>
+
+            <p id="cardSchoolName">School Name</p>
+
+            <p id="cardCourse">Course of Study</p>
+
+            <p id="cardNumber">Card No: SC-2026</p>
+
+            <span class="card-label">STUDENT</span>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
